@@ -16,22 +16,26 @@
 <body>
     <!-- nav bar -->
     <div class="container-fluid">
-        <div class="navbar-expand-sm bg-dark navbar">
-            <div class="logo">
-                <img src="images/icon.png" alt="" srcset="" height="50px" width="50px">
+        
+            <div class="navbar-expand-sm bg-dark navbar">
+                <div class="logo">
+                    <img src="images/icon.png" alt="" srcset="" height="50px" width="50px">
+                </div>
+                <div class="logo1">
+                    <a href="#">Home</a>
+                    <a href="">Recipes</a>
+                </div>
             </div>
-            <div class="logo1">
-                <a href="#">Home</a>
-                <a href="">Recipes</a>
-            </div>
-        </div>
+        
+    </div>
+
     <div class="container home">
-        <div class="row">
-            <div class="col kitchen">
+        <div class="">
+            <div class="kitchen">
                 <h1>Sweet Pizza<br> <span>Kitchen </span></h1>
                 <p>Sorround yourself with pizzas<br>not negativity</p>
             </div>
-            <div class="col pizza">
+            <div class="pizza">
                 <img src="images/pizzaimage.jpeg" alt="" height="500px" width="700px">
             </div>
         </div>
@@ -55,38 +59,39 @@
 
     <div class="container form">
         <div class="row">
-            
-                <form id="form" action="">
-                    <div class="col pizzasize">
 
-                        <select name="" id="pizza">
-                            <option value="700">Small</option>
-                            <option value="1000">medium</option>
-                            <option value="1200">large</option>
-                        </select>
-                    </div>
-                    <div class="col pizzasize">
-                        <select name="" id="">
-                            <option value="300">Mushroom</option>
-                            <option value="400">Sausage</option>
-                            <option value="500">Cheese</option>
-                        </select>
-                    </div>
-                    <div class="col pizzasize">
-                        <select name="" id="">
-                            <option value="200">Detroit</option>
-                            <option value="400">Chicago</option>
-                            <option value="600">Greek</option>
-                        </select>
+            <form id="form" action="">
+                <div class="col pizzasize">
 
-                    </div>
-                   
-                </form>
-            
+                    <select name="" id="pizza">
+                        <option value="700">Small</option>
+                        <option value="1000">medium</option>
+                        <option value="1200">large</option>
+                    </select>
+                </div>
+                <div class="col pizzasize">
+                    <select name="" id="">
+                        <option value="300">Mushroom</option>
+                        <option value="400">Sausage</option>
+                        <option value="500">Cheese</option>
+                    </select>
+                </div>
+                <div class="col pizzasize">
+                    <select name="" id="">
+                        <option value="200">Detroit</option>
+                        <option value="400">Chicago</option>
+                        <option value="600">Greek</option>
+                    </select>
+
+                </div>
+
+
+            </form>
+
         </div>
 
     </div>
-    <button type="button" id="button" class="btn btn-primary btn-rounded mt-5">ORDER</button>
+    <button type="button" id="button" class="btn btn-primary btn-rounded mt-5" onclick="click()">ORDER</button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
