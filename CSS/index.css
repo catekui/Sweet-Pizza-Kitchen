@@ -4,9 +4,28 @@
     box-sizing: border-box;
 }
 .navbar {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
 }
 .logo1 {
     margin-left: 500px;
+}
+/* home section */
+.home {
+    height: auto;
+    /* display: flex; */
+    font-style: italic;
+}
+.kitchen {
+    margin-top: 70px;
+}
+.kitchen p {
+    font-size: xx-large;
+    font-weight: 700;
+}
+.pizza {
+    margin-left: 330px;  
+}
+span {
+    color: red;
 }
