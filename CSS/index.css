@@ -64,9 +64,12 @@ h1{
 }
 
 select {
+    height: 50px;
+    width: 350px;
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #f1f1f1;  
+    background-color: red;  
 }
+
 
