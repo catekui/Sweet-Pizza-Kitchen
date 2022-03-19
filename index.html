@@ -25,15 +25,15 @@
                 <a href="">Recipes</a>
             </div>
         </div>
-    </div>
-    <!-- home section -->
     <div class="container home">
-        <div class="kitchen">
-            <h1>Sweet Pizza<br> <span>Kitchen </span></h1>
-            <p>Sorround yourself with pizzas<br>not negativity</p>
-        </div>
-        <div class="pizza">
-            <img src="images/pizzaimage.jpeg" alt="" height="500px" width="700px">
+        <div class="row">
+            <div class="col kitchen">
+                <h1>Sweet Pizza<br> <span>Kitchen </span></h1>
+                <p>Sorround yourself with pizzas<br>not negativity</p>
+            </div>
+            <div class="col pizza">
+                <img src="images/pizzaimage.jpeg" alt="" height="500px" width="700px">
+            </div>
         </div>
     </div>
     <!-- Recipes section -->
@@ -41,44 +41,50 @@
     <div class="recipes">
         <div class="pizza1">
             <img src="images/pizza1.jpg" alt="" style="width:350px">
-            <h3>Pizza</h3>
+            <h3 class=" mt-4 crust">Pizza</h3>
         </div>
         <div class="pizza2">
             <img src="images/toppings.jpg" alt="" style="width:350px">
-            <h3>toppings</h3>
+            <h3 class="mt-4 crust">toppings</h3>
         </div>
         <div class="pizza3">
             <img src="images/crust.jpg" alt="" style="width:350px">
-            <h3>Crust</h3>
+            <h3 class=" mt-4 crust">Crust</h3>
         </div>
     </div>
-    <div class="form">
-        <form action="">
-            <div>
-                <label for="">Pizza size</label><br>
-                <select name="" id="pizza">
-                    <option value="">Small-700</option>
-                    <option value="">medium-1000</option>
-                    <option value="">large-1200</option>
-                </select>
+
+    <div class="container form">
+        <div class="row">
+            <div class="">
+                <form id="form" action="">
+                    <div class="col pizzasize">
+
+                        <select name="" id="pizza">
+                            <option value="700">Small</option>
+                            <option value="1000">medium</option>
+                            <option value="1200">large</option>
+                        </select>
+                    </div>
+                    <div class="col pizzasize">
+                        <select name="" id="">
+                            <option value="300">Mushroom</option>
+                            <option value="400">Sausage</option>
+                            <option value="500">Cheese</option>
+                        </select>
+                    </div>
+                    <div class="col pizzasize">
+                        <select name="" id="">
+                            <option value="200">Detroit</option>
+                            <option value="400">Chicago</option>
+                            <option value="600">Greek</option>
+                        </select>
+                        <div>
+                            <input type="button">
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div>
-                <label for="">toppings</label><br>
-                <select name="" id="">
-                    <option value="">Mushroom-300</option>
-                    <option value="">Sausage-400</option>
-                    <option value="">Cheese-500</option>
-                </select>
-            </div>
-            <div>
-                <label for="">Crust</label><br>
-                <select name="" id="">
-                    <option value="">Detroit-200</option>
-                    <option value="">Chicago-400</option>
-                    <option value="">Greek-600</option>
-                </select>
-            </div>
-        </form>
+        </div>
 
     </div>
 

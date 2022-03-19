@@ -24,7 +24,7 @@
     font-weight: 700;
 }
 .pizza {
-    margin-left: 330px;  
+    margin-left: 15%; 
 }
 span {
     color: red;
@@ -52,6 +52,21 @@ h1{
 .pizza3 img {
     border-radius: 50%;
     height: 300px;
-    margin-left: 40px;
-    
+    margin-left: 40px;  
 }
+.crust {
+    /* margin-top: ; */
+}
+/* form section */
+#form {
+    display: flex;
+    flex-direction: row;
+}
+
+select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;  
+}
+
