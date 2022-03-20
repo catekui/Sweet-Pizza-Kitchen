@@ -1,25 +1,30 @@
 $(document).ready(function(){
-
+    // constructor
     function Order(pizza, toppings, crust){
         this.pizza=pizza;
         this.toppings=toppings;
         this.crust=crust;
     }
+
     $("button").click(function(){
         function myPizza(){
-            const pizza = document.getElementById("pizza").ariaValueMax;
-            parseInt(pizza);
+            const pizzaCost = document.getElementById("pizza").value;
+            return parseInt(pizzaCost);
         }
         function myToppings(){
-            const toppings = document.getElementById("toppings").ariaValueMax;
-            parseInt(toppings);
+            const toppingsCost = document.getElementById("toppings").value;
+            return parseInt(toppingsCost);
         }
         function myCrust(){
-            const crust = document.getElementById("crust").ariaValueMax;
-            parseInt(crust);
+            const crustCost = document.getElementById("crust").value;
+            return parseInt(crustCost);
         }
-        if (pizza === "" ||toppings=== "" || crust === ""){
-            alert("Please choose something")
-        }
+        let cost =  new Order(myPizza(), myToppings(), myCrust())
+        
+        var totalCost = cost.pizza + cost.toppings + cost.crust
+        alert(totalCost)
+
+
+        
     })
 })

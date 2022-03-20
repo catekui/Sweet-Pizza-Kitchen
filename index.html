@@ -16,28 +16,28 @@
 <body>
     <!-- nav bar -->
     <div class="container-fluid">
-        
-            <div class="navbar-expand-sm bg-dark navbar">
-                <div class="logo">
-                    <img src="images/icon.png" alt="" srcset="" height="50px" width="50px">
-                </div>
-                <div class="logo1">
-                    <a href="#">Home</a>
-                    <a href="">Recipes</a>
-                </div>
+
+        <div class="navbar-expand-sm bg-dark navbar">
+            <div class="logo">
+                <img src="images/icon.png" alt="" srcset="" height="50px" width="50px">
             </div>
-        
+            <div class="logo1">
+                <a href="#">Home</a>
+                <a href="">Recipes</a>
+            </div>
+        </div>
+
     </div>
 
     <div class="container home">
-        <div class=" kitchen"> 
+        <div class=" kitchen">
             <h1>Sweet Pizza <br><Span>Kitchen</Span></h1>
             <p>Sorround yourself with pizzas <br>not negativity</p>
         </div>
         <div class="pizza">
-            <img src="images/pizzaimage.jpeg" alt="" srcset=""  width="600px" height="500px">
+            <img src="images/pizzaimage.jpeg" alt="" srcset="" width="600px" height="500px">
         </div>
-        
+
     </div>
     <!-- Recipes section -->
     <h1 id="recipes">Recipes</h1>
@@ -63,23 +63,23 @@
                 <div class="col pizzasize">
 
                     <select name="" id="pizza">
-                        <option value="700">Small</option>
-                        <option value="1000">medium</option>
-                        <option value="1200">large</option>
+                        <option value="700">Small--700</option>
+                        <option value="1000">Medium--1000</option>
+                        <option value="1200">large--1200</option>
                     </select>
                 </div>
                 <div class="col pizzasize">
-                    <select name="" id="">
-                        <option value="300">Mushroom</option>
-                        <option value="400">Sausage</option>
-                        <option value="500">Cheese</option>
+                    <select name="" id="toppings">
+                        <option value="300">Mushroom--300</option>
+                        <option value="400">Sausage--400</option>
+                        <option value="500">Cheese--500</option>
                     </select>
                 </div>
                 <div class="col pizzasize">
-                    <select name="" id="">
-                        <option value="200">Detroit</option>
-                        <option value="400">Chicago</option>
-                        <option value="600">Greek</option>
+                    <select name="" id="crust">
+                        <option value="200">Detroit--200</option>
+                        <option value="400">Chicago--400</option>
+                        <option value="600">Greek--600</option>
                     </select>
 
                 </div>
@@ -90,10 +90,23 @@
         </div>
 
     </div>
-    <button type="button" id="button" class="btn btn-primary btn-rounded mt-5" onclick="click()">ORDER</button>
+    <div class="text-center">
+        <button type="submit" id="button" class="btn btn-primary btn-rounded mt-5" onclick="click()">ORDER</button>
+    </div>
+<!-- table -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Order No</th>
+                <th scope="col">Pizza Size</th>
+                <th scope="col">Toppings</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
 
-    <div id="results"></div>
-
+    </table>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
