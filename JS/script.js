@@ -5,12 +5,18 @@ function Order(pizza, toppings, crust){
 }
 $(document).ready(function(){
 
-    $("#button1").show()
-    $(".deliverybutton").show()
-    $("#thankyou").hide()
+    // $("#button1").show()
+    // $(".info").hide()
+    // $("#thankyou").hide()
 
 
     $("#button").click(function(){
+         $("#button").hide();
+         $(".deliverybutton").show();
+
+    
+
+
         function myPizza(){
             const pizzaCost = document.getElementById("pizza").value;
             return parseInt(pizzaCost);
@@ -27,16 +33,12 @@ $(document).ready(function(){
         
         var totalCost = cost.pizza + cost.toppings + cost.crust 
         // alert(totalCost)
-    
        
         $(".pizza1").append(('<tr><td class="size">'+ cost.pizza +'</td><td class="toppings">' + cost.toppings + '</td><td class="crust">'+ cost.crust + '</td><td class="total">'+totalCost))  
         $("#deliverycost").append( + " " + totalCost );
         
-        // $("#no").click(function(){
-        //     $("#thankyou").show()
-        //     $(".yes").hide()
+       
     })
-
 
     $("#button1").click(function(){
         function myPizza(){
@@ -54,20 +56,28 @@ $(document).ready(function(){
         let cost =  new Order(myPizza(), myToppings(), myCrust())
         
         var totalCost = cost.pizza + cost.toppings + cost.crust 
-        // alert(totalCost)
     
         $(".pizza1").show(function(){
             $(".pizza1").append(('<tr><td class="size">'+ cost.pizza +'</td><td class="toppings">' + cost.toppings + '</td><td class="crust">'+ cost.crust + '</td><td class="total">'+totalCost))
         })
         $("#deliverycost").append( + " " + totalCost );
-
-        //  $("#no").click(function(){
-        //     $("#thankyou").show()
-        //     $("#yes").hide()
+        
+        // $(".complete").show();
+        
         
     })
+    
+    $("#yes").click(function(){
+        $("deliverybutton").hide();
+        $('#location').show();
+    
+    })
+   
+
 
 
 
 })
-       
+  //  $("#no").click(function(){
+        //     $(".info").show()
+        //     $("#yes").hide()     

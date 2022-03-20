@@ -93,4 +93,7 @@ select {
 .other-buttons {
     /* display: none; */
 }
+.completebutton, #location, .deliverybutton {
+    display: none;
+}
 

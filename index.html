@@ -127,21 +127,32 @@
     <div class="other-buttons">
         <div class="text-center">
             <h3 id="deliverycost">The total cost of the pizza is: </h3>
-            <button class="btn btn-primary" id="button1" type="submit">Add Another Pizza</button>
+            <!-- <button class="btn btn-primary" id="button1" type="submit">Add Another Pizza</button> -->
             <div class="info">
                 <div class="deliverybutton">
                     <h5 class="extrafee">Would you like us to deliver at an additional fee of <br>
                         of 300?</h5>
+                
                     <button class="btn btn-primary yes" id="yes" type="submit">Yes</button>
                     <button class="btn btn-primary no" id="no" type="submit">No</button>
                 </div>
-                <div class="text-center location">
-                    <input type="text" placeholder="Kindly indicate your location">
+
+                <form action="text-center" id="location">
+                    <input type="text" placeholder="Kindly indicate your name"><br>
+                    <input type="text" placeholder="Kindly indicate your location"><br>
+                    <input type="text" placeholder="Kindly indicate your phonenumber"><br>
                     <button class="btn btn-primary complete" type="submit">Complete</button>
+                </form>
+               
+               
+                
+                <div class="text-center completebutton">
+                   
+                    <h6 id="thankyou">Your order has been received!<br>
+                        Thank you for choosing our pizza<br>
+                        The order is being dispatched shortly</h6>
                 </div>
-                <h6 id="thankyou">Your order has been received!<br>
-                    Thank you for choosing our pizza<br>
-                    The order is being dispatched shortly</h6>
+                
             </div>
 
         </div>
