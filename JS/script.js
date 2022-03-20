@@ -74,7 +74,7 @@ $(document).ready(function(){
 
         if ($("input#name").val() && $("input#phonenumber").val() && $("input#locality").val()!=""){
   
-        alert("Thank you for choosing our pizza. The order is being dispatched shortly. It costs ksh " + totalShippingCost)
+        alert("Hello " + name  + " We have received your order, your total cost is" + "" + totalShippingCost + " Your order will be delivered to your location " + locality)
           }
           else {
             alert("Please fill in the details for delivery!");  
