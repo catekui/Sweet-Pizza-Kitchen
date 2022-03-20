@@ -1,7 +1,7 @@
 # SWEET PIZZA KITCHEN
 
 ##### By Catherine Wangui
-### This is a website that enable customers to order different sizesof pizzas with an option of choosing different toppings and crust, delivery and displays the total cost.
+### This is a website that enable customers to order different sizes of pizzas with an option of choosing different toppings and crust, delivery and displays the total cost.
 
 ## Table of Content
 
@@ -33,11 +33,11 @@
 
 2. Displays the total cost of pizza.
 
-3. Displays would you like delivery at a fee and buttons for choosing yes and no
+3. Displays would you like delivery at a fee and buttons for choosing yes and no.
 
 4.  Displays form to enter location, name, and phonenumber if you prefered delivery.
 
-5. Displays a checkout button
+5. Displays a checkout button.
 ## Development
 Want to contribute? Great!
 
