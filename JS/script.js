@@ -23,7 +23,7 @@ $(document).ready(function(){
             return parseInt(crustCost);
         }
         let cost =  new Order(myPizza(), myToppings(), myCrust())
-        
+        // order = order + 1;
         var totalCost = cost.pizza + cost.toppings + cost.crust 
         // alert(totalCost)
         // var order = totalCost + order
@@ -103,7 +103,7 @@ $(document).ready(function(){
 
         if ($("input#name").val() && $("input#phonenumber").val() && $("input#locality").val()!=""){
   
-        alert("Thank you for shoping " + totalShippingCost)
+        alert("Thank you for choosing our pizza. The order is being dispatched shortly. It costs ksh " + totalShippingCost)
           }
           else {
             alert("Please fill in the details for delivery!");

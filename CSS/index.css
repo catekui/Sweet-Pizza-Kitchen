@@ -6,6 +6,7 @@
 }
 .navbar {  
     flex-direction: row;
+    background-color: black;
 }
 .logo1 {
     margin-left: 500px;
@@ -71,6 +72,7 @@ span {
 #form {
     display: flex;
     flex-direction: row;
+    margin-left: 50px;
 }
 select {
     height: 50px;
@@ -84,12 +86,11 @@ select {
 .table1 {
     height: 30vh;
 }
-/* .table {
-    /* display: none; */
-/* } */ *
-/* .other-buttons {
-    display: none;
-} */
+.section {
+    background-color: black;
+    height: 400px;
+
+}
 .completebutton, #location, .deliverybutton {
     display: none;
 }
