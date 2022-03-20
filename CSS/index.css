@@ -2,13 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: black; */
 }
 .navbar {
-    /* display: flex; */
+    
     flex-direction: row;
 }
 .logo1 {
     margin-left: 500px;
+}
+.logo1 ul li{
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;  
+    font-size: x-large; 
+}
+.link2 {
+    margin-left: 150px;
+}
+.link3 {
+    margin-left: 150px;
 }
 /* home section */
 .home {
