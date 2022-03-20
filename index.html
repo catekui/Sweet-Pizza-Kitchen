@@ -81,9 +81,6 @@
                         <option value="600">Greek-@600</option>
                     </select>
                 </div>
-
-
-
             </form><br>
 
 
@@ -126,31 +123,33 @@
     <!-- Other buttons -->
     <div class="other-buttons">
         <div class="text-center">
-            <h3 id="deliverycost">The total cost of the pizza is: </h3>
-            <!-- <button class="btn btn-primary" id="button1" type="submit">Add Another Pizza</button> -->
+           
+            <button class="btn btn-primary" id="button1" type="submit">Add Another Pizza</button>
             <div class="info">
                 <div class="deliverybutton">
-                    <h5 class="extrafee">Would you like us to deliver at an additional fee of <br>
-                        of 300?</h5>
-                
+                    <h3 id="totalpizzacost">The total cost of the pizza is: </h3>
+                    <h5 class="extrafee">Would you like us to deliver <br>
+                        at an additional fee of 300?</h5>
                     <button class="btn btn-primary yes" id="yes" type="submit">Yes</button>
                     <button class="btn btn-primary no" id="no" type="submit">No</button>
-                </div>
 
-                <form action="text-center" id="location">
-                    <input type="text" placeholder="Kindly indicate your name"><br>
-                    <input type="text" placeholder="Kindly indicate your location"><br>
-                    <input type="text" placeholder="Kindly indicate your phonenumber"><br>
-                    <button class="btn btn-primary complete" type="submit">Complete</button>
-                </form>
-               
-               
+                </div>
                 
+
+                <form action="" class="text-center" id="location">
+                    <input type="text"id="name" placeholder="Kindly indicate your name" required><br>
+                    <input type="text" id="locality" placeholder="Kindly indicate your location" required><br>
+                    <input type="number" id="phonenumber" placeholder="Kindly indicate your phonenumber" required><br>
+                    <button class="btn btn-primary complete" type="submit" id="checkout">Checkout</button>
+                </form>
+                <p id="totalshipping"></p>
+        
                 <div class="text-center completebutton">
-                   
+
                     <h6 id="thankyou">Your order has been received!<br>
                         Thank you for choosing our pizza<br>
                         The order is being dispatched shortly</h6>
+
                 </div>
                 
             </div>
