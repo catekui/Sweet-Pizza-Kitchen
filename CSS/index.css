@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: black; */
 
 }
 .navbar {  
     flex-direction: row;
-    background-color: black;
+    background-color: greenyellow;
 }
 .logo1 {
     margin-left: 500px;
@@ -52,6 +53,8 @@ span {
     display: flex;
     flex-direction: row;
     text-align: center;
+    color: #F60E0E;
+    background-color: greenyellow;
 }
 .pizzaimage img {
     border-radius: 50%;
@@ -84,11 +87,15 @@ select {
 }
 /* table */
 .table1 {
-    height: 30vh;
+    height: 40vh;
+    background-color: greenyellow;  
+    display: none;
 }
+
 .section {
-    background-color: black;
+    background-color: greenyellow;
     height: 400px;
+    display: none;
 
 }
 .completebutton, #location, .deliverybutton {
