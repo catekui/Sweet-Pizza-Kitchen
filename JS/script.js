@@ -4,7 +4,11 @@ function Order(pizza, toppings, crust){
     this.crust=crust;
 }
 $(document).ready(function(){
-    
+
+    $("#button1").show()
+    $(".deliverybutton").show()
+    $("#thankyou").hide()
+
 
     $("#button").click(function(){
         function myPizza(){
@@ -25,8 +29,15 @@ $(document).ready(function(){
         // alert(totalCost)
     
        
-        $(".pizza1").append(('<tr><td class="size">'+ cost.pizza +'</td><td class="toppings">' + cost.toppings + '</td><td class="crust">'+ cost.crust + '</td><td class="total">'+totalCost))        
+        $(".pizza1").append(('<tr><td class="size">'+ cost.pizza +'</td><td class="toppings">' + cost.toppings + '</td><td class="crust">'+ cost.crust + '</td><td class="total">'+totalCost))  
+        $("#deliverycost").append( + " " + totalCost );
+        
+        // $("#no").click(function(){
+        //     $("#thankyou").show()
+        //     $(".yes").hide()
     })
+
+
     $("#button1").click(function(){
         function myPizza(){
             const pizzaCost = document.getElementById("pizza").value;
@@ -49,11 +60,14 @@ $(document).ready(function(){
             $(".pizza1").append(('<tr><td class="size">'+ cost.pizza +'</td><td class="toppings">' + cost.toppings + '</td><td class="crust">'+ cost.crust + '</td><td class="total">'+totalCost))
         })
         $("#deliverycost").append( + " " + totalCost );
+
+        //  $("#no").click(function(){
+        //     $("#thankyou").show()
+        //     $("#yes").hide()
         
     })
 
 
 
 })
-// $(".yes").show()
-//         $("#formpizza").hide()
+       
