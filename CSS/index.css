@@ -14,25 +14,27 @@
 .home {
     height: auto;
     display: flex;
+    flex-direction: row;
     font-style: italic;
 }
 .kitchen {
-    /* margin-top: 70px; */
+    margin-top: 70px;
 }
 .kitchen p {
-    /* font-size: xx-large;
-    font-weight: 700; */
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 40px ;
 }
-.pizza {
-    /* margin-left: 30%;  */
+.pizza img{
+    margin-left: 20%; 
 }
 span {
     color: red;
 }
 /* recipes section */
-/* h1{
+#recipes{
     text-align: center;
-} */
+}
 .recipes {
     display: flex;
     flex-direction: row;
