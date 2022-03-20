@@ -89,13 +89,13 @@ select {
 .table1 {
     height: 40vh;
     background-color: greenyellow;  
-    display: none;
+    /* display: none; */
 }
 
 .section {
     background-color: greenyellow;
     height: 400px;
-    display: none;
+    /* display: none; */
 
 }
 .completebutton, #location, .deliverybutton {

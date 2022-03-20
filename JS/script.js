@@ -9,6 +9,7 @@ $(document).ready(function(){
          $("#button").show();
          $(".deliverybutton").show();
          $("#totalpizzacost").show();
+        //  $(".table1").show()
 
         function myPizza(){
             const pizzaCost = document.getElementById("pizza").value;

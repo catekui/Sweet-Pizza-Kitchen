@@ -1,7 +1,7 @@
 # SWEET PIZZA KITCHEN
 
 ##### By Catherine Wangui
-### This is a website that enable customers to order different sizesof pizzas with an option of choosing different toppings and crust.
+### This is a website that enable customers to order different sizesof pizzas with an option of choosing different toppings and crust, delivery and displays the total cost.
 
 ## Table of Content
 
@@ -16,7 +16,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>TThis is a website that enable customers to order different sizesof pizzas with an option of choosing different toppings and crust.</p>
+<p>This is a website that enable customers to order different sizesof pizzas with an option of choosing different toppings and crust, delivery and displays the total cost.</p>
 
 ## Installation
 
@@ -29,24 +29,15 @@
 ### Installation Process
 
 ## Behaviour Driven Development
-1. Displays form for Entering Date and Gender
-* INPUT: "User's gender"
-* INPUT: "User's day of birth"
-* INPUT: "User's month of birth"
-* INPUT: "User's year of birth" 
-* OUTPUT: "Displays User's Akan name according to submitted date and gender
+1. Displays select input for Entering size of pizza, crust and toppings.
 
-2. Displays an Invalid Day Message if day input left blank
-* INPUT: ""
-* OUTPUT: Displays Invalid day
+2. Displays the total cost of pizza.
 
-3. Displays an Invalid Month Message if month input left blank
-* INPUT: ""
-* OUTPUT: Displays Invalid Month
+3. Displays would you like delivery at a fee and buttons for choosing yes and no
 
-4.  Displays an Invalid Year Message if year input left blank
-* INPUT: ""
-* OUTPUT: Displays Invalid Year
+4.  Displays form to enter location, name, and phonenumber if you prefered delivery.
+
+5. Displays a checkout button
 ## Development
 Want to contribute? Great!
 
@@ -63,17 +54,22 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar.
+* CSS - which was used to style the page.
 
-* Javascript - which was used to enable the user interact with the webpage.
+* Bootstrap - which was used to style the page.
+
+* JQuery - was used to enable the user interact with the page.
+
+* Javascript - was used to enable the user interact with the webpage.
 
 ## Reference
 * W3 Schools
 * Youtube
 * Moringa School Canvas
 * Pinterest
-* Figma
+* Figma- https://www.figma.com/file/l8zfbU0JM9Tp3FaTGYx5C5/SWEET-PIZZA-KITCHEN?node-id=0%3A1
 
+![](../SWEET-PIZZA-KITCHEN/images/sweet.png)
 
 ## Licence
 
