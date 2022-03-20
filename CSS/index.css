@@ -2,10 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: black; */
+
 }
-.navbar {
-    
+.navbar {  
     flex-direction: row;
 }
 .logo1 {
@@ -75,6 +74,7 @@ span {
     flex-direction: row;
 }
 
+
 select {
     height: 50px;
     width: 350px;
@@ -84,10 +84,13 @@ select {
     background-color: red;  
 }
 /* table */
+.table1 {
+    height: 30vh;
+}
 .table {
-    display: none;
+    /* display: none; */
 }
 .other-buttons {
-    display: none;
+    /* display: none; */
 }
 

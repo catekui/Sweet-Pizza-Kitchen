@@ -28,9 +28,8 @@
                 </ul>
             </div>
         </div>
-
     </div>
-
+        <!-- home section -->
     <div class="container home">
         <div class=" kitchen">
             <h1>Sweet Pizza <br><Span>Kitchen</Span></h1>
@@ -44,7 +43,7 @@
     <!-- Recipes section -->
     <h1 id="recipes">Recipes</h1>
     <div class="recipes">
-        <div class="pizza1">
+        <div class="pizza-image">
             <img src="images/pizza1.jpg" alt="" style="width:350px">
             <h3 class=" mt-4 crust">Pizza</h3>
         </div>
@@ -58,71 +57,78 @@
         </div>
     </div>
 
-    <div class="container form">
+    <div class="container-fluid form">
         <div class="row">
-
             <form id="form" action="">
                 <div class="col pizzasize">
-
                     <select name="" id="pizza">
-                        <option value="700">Small--700</option>
-                        <option value="1000">Medium--1000</option>
-                        <option value="1200">large--1200</option>
+                        <option value="700">Small-@700</option>
+                        <option value="1000">Medium-@1000</option>
+                        <option value="1200">large-@1400</option>
                     </select>
                 </div>
                 <div class="col pizzasize">
                     <select name="" id="toppings">
-                        <option value="300">Mushroom--300</option>
-                        <option value="400">Sausage--400</option>
-                        <option value="500">Cheese--500</option>
+                        <option value="300">Mushroom-@300</option>
+                        <option value="400">Sausage-@400</option>
+                        <option value="500">Cheese-@500</option>
                     </select>
                 </div>
                 <div class="col pizzasize">
                     <select name="" id="crust">
-                        <option value="200">Detroit--200</option>
-                        <option value="400">Chicago--400</option>
-                        <option value="600">Greek--600</option>
+                        <option value="200">Detroit-@200</option>
+                        <option value="400">Chicago-@400</option>
+                        <option value="600">Greek-@600</option>
                     </select>
-
                 </div>
+                
 
+                
+            </form><br>
+            
 
-            </form>
-
+        </div>
+        <div class="text-center">
+            <button type="submit" id="button" class="btn btn-primary btn-rounded mt-5" >ORDER</button>
+        </div>
+        
+        <br>
+        <div class="row">
+            
         </div>
 
     </div>
-    <div class="text-center">
-        <button type="submit" id="button" class="btn btn-primary btn-rounded mt-5" onclick="click()">ORDER</button>
-    </div>
+    
     <!-- table -->
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">Order No</th>
-                <th scope="col">Pizza Size</th>
-                <th scope="col">Toppings</th>
-                <th scope="col">Crust</th>
-                <th scope="col">Total</th>
-            </tr>
-        </thead>
-        <tbody class="pizza1">
-            <tr>
-                <th scope="row">1</th>
-                <td class="size"></td>
-                <td class="toppings"></td>
-                <td class="crust"></td>
-                <td class="total"></td>
-            </tr>
-        </tbody>
-    </table>
-
+    <div class="container table1">
+        <table class="table">
+            <thead>
+                <tr>
+                    <!-- <th scope="col">Order No</th> -->
+                    <th scope="col">Pizza Size</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody class="pizza1">
+                <tr>
+                    <!-- <th scope="row">1</th> -->
+                    <td class="size"></td>
+                    <td class="toppings"></td>
+                    <td class="crust"></td>
+                    <td class="total"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
     <!-- Other buttons -->
     <div class="other-buttons">
         <div class="text-center">
-            <button class="btn btn-primary add-another" type="submit">Add Another Pizza</button>
+            <button class="btn btn-primary add-another" id="button" type="submit">Add Another Pizza</button>
             <div class="info">
-                <h3>The total cost of the pizza is: </h3>
+                <h3 id="deliverycost">The total cost of the pizza is: </h3>
                 <h5>Would you like us to deliver at an additional fee of <br>
                     of 300?</h5>
                 <button class="btn btn-primary yes" type="submit">Yes</button>
