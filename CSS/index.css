@@ -4,12 +4,13 @@
     margin: 0;
     box-sizing: border-box;
     /* background-color: black; */
-
 }
+
 .navbar {  
     flex-direction: row;
     background-color: greenyellow;
 }
+
 .logo1 {
     margin-left: 500px;
 }
@@ -33,15 +34,21 @@
     /* font-style: italic; */
 }
 .kitchen {
-    margin-top: 70px;
+    margin-top: 30px;
+    font-style: italic;
+    margin-right: 30px;
+
 }
 .kitchen p {
-    font-size: xx-large;
-    font-weight: 700;
-    margin-top: 40px ;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 8px ;
+}
+.bonjour {
+    color: greenyellow;
 }
 .pizza img{
-    margin-left: 20%; 
+    margin-left: 192px; 
 }
 span {
     color: red;

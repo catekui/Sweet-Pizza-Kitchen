@@ -77,8 +77,7 @@ $(document).ready(function(){
         alert("Thank you for choosing our pizza. The order is being dispatched shortly. It costs ksh " + totalShippingCost)
           }
           else {
-            alert("Please fill in the details for delivery!");
-            
+            alert("Please fill in the details for delivery!");  
           }   
     })
 })
