@@ -60,7 +60,6 @@ $(document).ready(function(){
     //     $("#totalpizzacost").append( + " " + totalCost );
         
         
-    //     // $(".complete").show();
           
     // })
     

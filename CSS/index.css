@@ -10,7 +10,7 @@
 .logo1 {
     margin-left: 500px;
 }
-.logo1 ul li{
+.logo1 ul li {
     display: inline-block;
     flex-direction: row;
     text-decoration: none;  
@@ -61,7 +61,6 @@ span {
     border-radius: 50%;
     height: 300px;
     margin-left: 40px;
-
 }
 .pizza3 img {
     border-radius: 50%;
@@ -73,8 +72,6 @@ span {
     display: flex;
     flex-direction: row;
 }
-
-
 select {
     height: 50px;
     width: 350px;
@@ -87,12 +84,12 @@ select {
 .table1 {
     height: 30vh;
 }
-.table {
+/* .table {
     /* display: none; */
-}
-.other-buttons {
-    /* display: none; */
-}
+/* } */ *
+/* .other-buttons {
+    display: none;
+} */
 .completebutton, #location, .deliverybutton {
     display: none;
 }
